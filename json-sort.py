@@ -1,4 +1,4 @@
-# %%
+#!/usr/bin/env python3
 import json
 import requests
 import time
@@ -42,5 +42,3 @@ print(f'finished in {t2-t1} seconds')
 
 with open('packages_info.json','w') as f:
     json.dump(results, f, indent=2)
-
-# %%
